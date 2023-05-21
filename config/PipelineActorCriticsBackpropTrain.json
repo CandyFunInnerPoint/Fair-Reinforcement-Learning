@@ -1,0 +1,10 @@
+{
+    "pipeDataGenHistLocalTimeInMicro": "2021-10-27-04-33-11-559643",
+    "histLocalTimeInMicro": null,
+    "memMgmtOptDataSamplerDiskMode": "ReadFromDisk",
+    "memMgmtOptInitNnModelParaLossLevelGenDiskMode": "ReadFromDisk",
+    "dataDim": 3,
+    "startNodeClassName": "ActorCriticsBackpropTrain",
+    "startNodeObjName": ""
+
+}

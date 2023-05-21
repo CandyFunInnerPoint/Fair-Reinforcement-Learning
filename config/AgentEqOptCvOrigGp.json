@@ -1,0 +1,22 @@
+{
+    "nnModelName": "NnModelDiff",
+    "nnLr": 1e-5,
+    "numNnTrainStepsLogging": 8,
+    "numNnTrainStepsOccuMeas": 8,
+    "numGroups": 2,
+    "numScores": 5,
+    "minScore": -2,
+    "origConst": 1e-3,
+    "timeLimitEqOptCvOrig": 300,
+    "feasEps": 1e-6,
+    "optValEps": 1e-3,
+    "optRoundEps": 1e-6,
+    "optRoundEpsTransProb": 1e-6,
+    "mipGap": 1e-3,
+
+    "algoLoggerCapacity": 100,
+    "optObjConstrForUpdateLoggerFileName": "optObjConstrForUpdateLog",
+    
+    "hasTransProbConstr": true,
+    "isComputeEval": false
+}

@@ -1,0 +1,9 @@
+{
+    "pipeTrainClassNameId": "PipelineActorCriticsBackpropTrain",
+    "pipeEvalClassNameId": "PipelineActorCriticsBackpropEval",
+    "histLocalTimeInMicro": null,
+    "memMgmtOptRLFairTrainDiskMode": "ReadFromDisk",
+    "memMgmtOptRLFairEvalDiskMode": "ReadFromDisk",
+    "startNodeClassName": "MemMgmtOptRLFairTrain",
+    "startNodeObjName": ""
+}

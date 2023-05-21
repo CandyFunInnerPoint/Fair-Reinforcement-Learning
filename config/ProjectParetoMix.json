@@ -1,0 +1,8 @@
+{
+    "numTrialsTrain": 5,
+    "algoTypeList": ["DpOrigGp", "DpSgtGp"],
+    "sgtConstList": [0, 1, 10, 1000],
+    "hgConstList": [0.01, 0.1, 0.5, 0.99],
+    "evalTypeList": ["Dp"],
+    "envTypeList": ["SimGenerative"] 
+}

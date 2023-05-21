@@ -1,0 +1,8 @@
+{
+    "pipeEvalClassNameId": "PipelineActorCriticsBackpropEval",
+    "pipeEvalHistLocalTimeInMicro": "2021-11-18-15-5602-646091",
+    "histLocalTimeInMicro": null,
+    "memMgmtOptActorCriticsBackpropEvalDiskMode": "ReadFromDisk",
+    "startNodeClassName": "MemMgmtOptActorCriticsBackpropEval",
+    "startNodeObjName": ""
+}

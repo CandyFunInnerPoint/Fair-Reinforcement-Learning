@@ -1,0 +1,46 @@
+{
+    "agentName": "AgentTrain",
+    
+
+    "gamma": 0.6,
+    "lrCritic": 0.0001,
+    "lrActor": 0.0001,
+    "numTrainEpisode": 800000,
+    "numTrainSubEpisode": 1,
+    "numNnTrainSteps": 8,
+    "numPolicyUpdates": 20,
+    "numStartPolicyUpdates": 4,
+    "numInterPolicyUpdateEpisodes": 64,
+    "numInterPolicyUpdateEvalEpisodes": 8000,
+    "numInterPolicyEvalEpisodes": 8000,
+
+    "numWarmUpTrainEpisodeOccuMeas": 32,
+
+
+    "trainReplayMemoryCapacity": 100000,
+    "replayMemoryBatchSize": 1024,
+    "replayMemoryWarmStartNumSteps": 8192,
+    "numNnTrainStepsSampling": 1, 
+
+    "nnBatchSize": 32,
+    "nnHiddenDim": 4,
+    "nnTargetDim": 1,
+    "nnLayerDim": 2,
+
+    "trainLoggerCapacity": 100,
+    "trainLoggerFileName": "trainDataLog",
+
+    "evalUpdateEpisode": 1,
+    "evalUpdateNnSteps": 1000,
+
+    "evalType": "eqOpt",
+
+    "envType": "Real",
+
+    "groupProbList": [0.9, 0.1],
+
+    "grpProbPath": "../../data/totals.csv",
+
+    "useTrueModel": false
+
+}

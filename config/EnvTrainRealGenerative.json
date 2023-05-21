@@ -1,0 +1,26 @@
+{
+    "nnModelName": "NnModelDiff",
+    "rewardFuncName": "RewardFuncLossDiffPrevLoss",
+    "groupProbList": [0.9, 0.1],
+    "numScores": 5,
+    "minScore": -2,
+    "scoreScoreLag1IsQualVal1Dec1DnWgtDisList": [[-1, 0.4, 0.3, 0.2, 0.1],[-1, 0.7, 0.5, 0.3, 0.1]],
+    "scoreScoreLag1IsQualVal1Dec1EqWgtDis": [0.6,0.9],
+    "scoreScoreLag1IsQualVal1Dec1UpWgtDisList": [[-1, 0.5, 0.4, 0.3, 0.2],[-1, 1.0, 0.7, 0.4, 0.1]],
+    "scoreScoreLag1IsQualVal1Dec0DnWgtDisList": [[-1, 0.5, 0.4, 0.3, 0.2],[-1, 1.0, 0.7, 0.4, 0.1]],
+    "scoreScoreLag1IsQualVal1Dec0EqWgtDis": [0.6,0.9],
+    "scoreScoreLag1IsQualVal1Dec0UpWgtDisList": [[-1, 0.4, 0.3, 0.2, 0.1],[-1, 0.7, 0.5, 0.3, 0.1]],
+    "scoreScoreLag1IsQualVal0Dec1DnWgtDisList": [[-1, 0.5, 0.4, 0.3, 0.2],[-1, 1.0, 0.7, 0.4, 0.1]],
+    "scoreScoreLag1IsQualVal0Dec1EqWgtDis": [0.6,0.9],
+    "scoreScoreLag1IsQualVal0Dec1UpWgtDisList": [[-1, 0.4, 0.3, 0.2, 0.1],[-1, 0.7, 0.5, 0.3, 0.1]],
+    "scoreScoreLag1IsQualVal0Dec0DnWgtDisList": [[-1, 0.4, 0.3, 0.2, 0.1],[-1, 0.7, 0.5, 0.3, 0.1]],
+    "scoreScoreLag1IsQualVal0Dec0EqWgtDis": [0.6,0.9],
+    "scoreScoreLag1IsQualVal0Dec0UpWgtDisList": [[-1, 0.5, 0.4, 0.3, 0.2],[-1, 1.0, 0.7, 0.4, 0.1]],
+    "rewardCoefIsQual1Dec1List": [1, 1],
+    "rewardCoefIsQual0Dec1List": [-1, -1],
+    "rewardCoefDec0List": [0, 0],
+
+    "grpProbPath": "../../data/totals.csv",
+    "cmfScorePath": "../../data/transrisk_cdf_by_race_ssa.csv",
+    "probIsQualCondScorePath": "../../data/transrisk_performance_by_race_ssa.csv"
+}
